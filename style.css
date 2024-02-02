@@ -1,5 +1,5 @@
 body {
-  background-image: linear-gradient(#080616, #3e0b5c, #e03cb7);
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(42,9,121,1) 46%, rgba(223,60,180,1) 100%); 
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -8,14 +8,31 @@ body {
   color: #d6d6ea;
 }
 
+
 .container-aplicativo {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: -500px;
   height: -500px;
-  line-height: 1%;
-  font-family: Verdana, Geneva, Tahoma, sans-serif ;
+  line-height: 25px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+  font-size: larger;
+  font-stretch:ultra-expanded;
+  color: #3e0b5c;
+}
+
+.container-letras {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: -500px;
+  height: -500px;
+  line-height: 25px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+  font-weight: 500;
+  font-stretch:ultra-expanded;
+  color: #dfade4;
 }
 
 button {
@@ -23,6 +40,8 @@ button {
   color: inherit;
   border: none;
   cursor: pointer;
+  height: 150px;
+  width: 200px;
 }
 
 .music-container {
@@ -35,7 +54,7 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: -0rem 10 -0.5rem 0;
+  margin: -100rem 100 -100rem 0;
   font-size: 1.7rem;
 }
 
