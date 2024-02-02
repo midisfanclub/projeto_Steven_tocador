@@ -1,0 +1,11 @@
+p {
+    color: red
+}
+
+#subtítulo {
+   background-color: aqua; 
+   color: black;
+}
+.fundo-verde {
+    background-color: rgb(161, 223, 54);
+}
