@@ -1,5 +1,5 @@
 body {
-  background-image: linear-gradient(#3b1566, #5f4da8);
+  background-image: linear-gradient(#080616, #3e0b5c, #e03cb7);
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -12,6 +12,10 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: -500px;
+  height: -500px;
+  line-height: 1%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif ;
 }
 
 button {
@@ -31,17 +35,17 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 2rem 0 1rem 0;
-  font-size: 1.5rem;
+  margin: -0rem 10 -0.5rem 0;
+  font-size: 1.7rem;
 }
 
 
 #anterior, #proximo {
-  font-size: 3rem;
+  font-size: 5rem;
 }
 
 #play-pause {
-  font-size: 4rem;
+  font-size: 5rem;
 }
 
 #container-botoes {
